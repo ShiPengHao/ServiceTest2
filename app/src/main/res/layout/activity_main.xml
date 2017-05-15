@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/bind_service_messenger"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_bs_messenger"
+            style="@style/MyText"
+            android:text="@string/bind_service_messenger" />
+
+        <TextView
+            android:id="@+id/tv_bs_messenger_count"
+            style="@style/MyText"
+            android:text="@string/count" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/bind_service_aidl"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_bs_aidl"
+            style="@style/MyText"
+            android:text="@string/bind_service_aidl" />
+
+        <TextView
+            android:id="@+id/tv_bs_aidl_count"
+            style="@style/MyText"
+            android:text="@string/count" />
+
+    </LinearLayout>
+</ScrollView>
